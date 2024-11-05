@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = '7765655149:AAGe_fTFLqlS7NHp6a9-VaBCRd5foe8-JNA'  # ваш токен
+TOKEN = 'ЗДЕСь_ВАШ_ТОКЕН'  # ваш токен
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Введите ссылку на товар Wildberries.')
